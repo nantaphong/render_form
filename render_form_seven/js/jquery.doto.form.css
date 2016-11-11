@@ -1,0 +1,99 @@
+/*jQuery Doto fom  1.0.1*/
+/* select */
+.dotoform-select-wrapper{
+	width:100%;
+	cursor:pointer;
+	word-wrap:break-word;
+}
+
+.dotoform-select-value{
+	border: 1px solid #999;
+	padding: 5px;
+	position:relative;
+	background-color:#fff;
+}
+
+.dotoform-select-value-value{
+	height:1.1em;
+	line-height:1;
+	overflow:hidden;
+}
+
+.dotoform-select-value-arrow{
+	width:0;
+	height:0;
+	border-color:#666 #fff #fff;
+	border-width:10px;
+	border-style:solid;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+
+.dotoform-select-value:hover .dotoform-select-value-arrow{
+	border-color:#000 #fff #fff;
+}
+
+.dotoform-select-option{
+	border: 1px solid #999;
+	background-color:#fff;
+	position:absolute;
+	width:100%;
+	max-height:182px;
+	overflow-y:auto;
+	z-index:50;
+}
+
+.dotoform-select-item{
+	padding:3px 5px;
+}
+
+.dotoform-select-item:hover{
+	background-color:#ddd;
+}
+
+
+
+/* checkbox */
+.dotoform-checkbox{
+	border:1px solid #000;
+	width:11px;
+	height:11px;
+	display:inline-block;
+	margin-right:5px;
+	vertical-align:middle !ie7;
+}
+
+.dotoform-checkbox.active{
+	background-color:#000;
+}
+
+.dotoform-checkbox.disabled{
+	border:1px solid #bbb;
+}
+
+.dotoform-checkbox.active.disabled{
+	background-color:#bbb;
+}
+
+/* radio */
+.dotoform-radio{
+	border:1px solid #000;
+	width:11px;
+	height:11px;
+	display:inline-block;
+	margin-right:5px;
+	vertical-align:middle !ie7;
+}
+
+.dotoform-radio.active{
+	background-color:#000;
+}
+
+.dotoform-radio.disabled{
+	border:1px solid #bbb;
+}
+
+.dotoform-radio.active.disabled{
+	background-color:#bbb;
+}

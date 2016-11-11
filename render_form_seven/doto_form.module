@@ -1,0 +1,12 @@
+<?php
+function doto_form_form_alter(&$form, &$form_state, $form_id){
+	if(user_is_anonymous()){
+		if(isset($form_id)){
+			drupal_add_js(drupal_get_path('module','doto_form').'/js/jquary.doto.form-inint.js');
+			drupal_add_js(drupal_get_path('module', 'doto_form') . '/js/jquery.doto.form.js');
+			drupal_add_css(drupal_get_path('module', 'doto_form') . '/js/jquery.doto.form.css');	
+		} 	
+	}
+}
+
+?>
