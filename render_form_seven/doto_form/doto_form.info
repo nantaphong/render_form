@@ -1,8 +1,8 @@
 name = Doto Form
 core = 7.x
-package = "Doto"
+description = "This plugin is a jQuery styling plugin wich allows you to skin form elements. Develop by n.an1aphong@gmail.com"
+package = "User interface"
 ; Information added by drupal.org packaging script on 2012-08-20
-version = "7.x-0.1"
+version = "7.x"
 core = "7.x"
-project = "dotography_form"
 datestamp = "1345435979"
