@@ -1,8 +1,5 @@
-/**
- * Product: Doto Form
- * By: Dotography.co,ltd
- * Description: 
- */
+// Example
+
 (function($) {
 	$(document).ready(function() {
 		//OPTION TYPE FORM
